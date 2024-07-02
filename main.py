@@ -39,7 +39,7 @@ while start:
         if hr >= sunset or hr <= sunrise:
             connection = em.SMTP("smtp.gmail.com")
             connection.starttls()
-            connection.login(user="azhagesan807@gmail.com", password="xyujmdlgnquguoou")
+            connection.login(user="Your User Name", password="Your Password")
             connection.sendmail(from_addr="azhagesan807@gmail.com",
                                 to_addrs="azhagesany@gmail.com",
                                 msg="Subject:ISS is above your head\n\n check out the night sky")
